@@ -15,7 +15,7 @@ Software has made our lives far less private.
 LLM inference seems like it should belong here, but it doesn't. Privacy is lost becuase inference requests must be exposed in plaintext to LLM recieving it. However, (unlike search) this server can be under end-user control offering inference without the exposure of **ANY** data. Aurelian targets two use cases.
 
 1. [Aurelian-Server](https://github.com/aurelianai/Aurelian-Server): Organizational use where a shared GPU server powers inference and chats are stored in an external database.
-2. [Aurelian-Desktop](https://github.com/aurelianai/Aurelian-Desktop): Personal use where inference and chat persistence are done on the end-user.
+2. [Aurelian-Desktop](https://github.com/aurelianai/Aurelian-Desktop): Personal use where inference and chat persistence are done on the end-user's device.
 
 # State of the Project
 This is a solo project for now, so neither repo is in working condition. [Aurelian-Server](https://github.com/aurelianai/Aurelian-Server) will be released first since it's closer to completion. There is a demo running at [demo.aurelianai.com](demo.aurelianai.com) anyone can use. Feel free to check it out!
